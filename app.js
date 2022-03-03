@@ -1,6 +1,8 @@
 // import functions
 
 // grab DOM elements
+const template = document.querySelector('#template');
+const apiSelector = document.querySelector('select');
 
 // set event listeners 
     // get user input
