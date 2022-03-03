@@ -8,6 +8,7 @@ const list = document.querySelector('#list');
 // set event listeners 
 apiSelector.addEventListener('change', async(event) => {
     const selected = event.target.value;
+    list.classList.remove('starwars', 'pokemon');
     if (selected === 'pokemon') {
         list.innerHTML = '';
         await loadPokedex();

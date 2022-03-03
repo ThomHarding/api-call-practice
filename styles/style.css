@@ -88,3 +88,25 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+.starwars {
+    background-color: black;
+    text-decoration-color: black;
+    text-decoration-style: solid;
+    color: antiquewhite;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: large;
+}
+
+.starwars h6 {
+    padding: 0%;
+    font-size: x-large;
+}
+
+.pokemon {
+    background-color: yellow;
+    color: green;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
